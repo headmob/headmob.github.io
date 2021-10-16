@@ -10,7 +10,8 @@ If information isn’t collected, it can’t be stolen, demanded, leaked or abus
 <b>Mobile Device Access </b><br>
 We may request access or permission to certain features from your mobile device, including your camera phone. If you wish to change the access or permissions, you may do so in your device settings. 
 <br><br>
-<b>Third-Party Advertisers</b></br>
+<b>Third-Party Advertisers</b>
+<br>
 We may use third-party advertising companies to serve ads when you open the application. These companies may provide advertisements about goods and services of interest to you. 
 <br><br>
 <b>How we respond to governmental requests for data</b></br>
