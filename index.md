@@ -14,7 +14,7 @@ We may request access or permission to certain features from your mobile device,
 <br>
 We may use third-party advertising companies to serve ads when you open the application. These companies may provide advertisements about goods and services of interest to you. 
 <br><br>
-<b>How we respond to governmental requests for data</b></br>
+<b>How we respond to governmental requests for data</b><br>
 They can request for what we DO NOT have.
 <br><br>
 <b>Contact Us</b><br>
