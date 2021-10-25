@@ -61,7 +61,7 @@ header {
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
   <a href="#script">Scripts</a>
-  <a href="#tutorial">Tutorial</a>
+  <a href="/tutorial">Tutorial</a>
   <a href="#about">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
