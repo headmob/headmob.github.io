@@ -71,29 +71,30 @@ header {
 <div style="padding-left:16px">
  
   - Press the Windows key :
+  <img src="img/Screenshot (100).png" />
  - Type ‘Firewall' , Select ‘Firewall & network protection’ :
- 
+ <img src="img/Screenshot (101).png" />
 - Scroll down and select ‘Advanced settings’:
  - From left select ‘Inbound Rules’ :
- 
+ <img src="img/Screenshot (102).png" />
 - In right panel, choose ‘New Rule’ :
  - Choose ‘Program’ and click Next:
- 
+ <img src="img/Screenshot (103).png" />
 - Choose ‘This program path’ and click Browse :
  - Choose ‘opentrack.exe’ from folder that you installed probably “c:\program files(x86)\opentrack\opentrack.exe”
  ------------------------------------
-
+<img src="img/Screenshot (104).png" />
 - Right click on your network symbol at the bottom right of Windows, choose ‘Open Network & Internet Setting’ :
  - Choose ‘Properties’ :
- 
+ <img src="img/Screenshot (105).png" />
 - Choose ‘Private’ instead of ‘Public’ (This will make your PC discoverable to your mobile devices) :
- 
+ <img src="img/Screenshot (106).png" />
 - Press windows key and type ‘Command prompt’ :
  - Type ‘ipconfig’ and Enter :
- 
+ <img src="img/Screenshot (107).png" />
 - Find your local Ipv4 address (normally starts with 192.168... but might 10.0... or something else) :
  - Now restart ‘opentrack’ :
- 
+ <img src="img/Screenshot (108).png" />
 </div>
 
 <script>
