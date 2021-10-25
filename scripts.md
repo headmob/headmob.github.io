@@ -72,18 +72,19 @@ header {
   <h3>Moving mouse with Android</h3>
   <p>
   def update():
-    #Apply deadband filter to avoid drift
-    #And continousRotation filter to yaw axis to avoid jumps when passing tracker center
-    x = filters.deadband(filters.delta(math.degrees(filters.continousRotation(android[0].yaw))), deadband)
-    y = filters.deadband(filters.delta(math.degrees(android[0].pitch)), deadband)
-
-    mouse.deltaX = x * multiply
-    mouse.deltaY = y * multiply
-
-if starting:
-    deadband = 0.01
-    multiply = 5
-    android[0].update += update
+    <br>
+    #Apply deadband filter to avoid drift    <br>
+    #And continousRotation filter to yaw axis to avoid jumps when passing tracker center    <br>
+    x = filters.deadband(filters.delta(math.degrees(filters.continousRotation(android[0].yaw))), deadband)    <br>
+    y = filters.deadband(filters.delta(math.degrees(android[0].pitch)), deadband)    <br>
+    <br>
+    mouse.deltaX = x * multiply    <br>
+    mouse.deltaY = y * multiply    <br>
+    <br>
+if starting:    <br>
+    deadband = 0.01    <br>
+    multiply = 5    <br>
+    android[0].update += update    <br>
   </p>
 </div>
 
