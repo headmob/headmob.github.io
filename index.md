@@ -1,22 +1,83 @@
-<h1>Head Mob Tracker</h1>
-<h3>
-Privacy Policy
-</h3>
 
-<b>Collection of Your Information</b><br>
-We don't store your data, period.<br>
-If information isn’t collected, it can’t be stolen, demanded, leaked or abused. HeadMob and its developers take your privacy very seriously. Beyond the information Google provides to developers that you can decide to provide, It uses NO third-party analytics and does NOT have any server to store your personal data. HeadMob logs no information on you and has no interest in doing such. Any information collected by the camera or TrueDepth API is ONLY sent to your own personal computer. 
-<br><br>
-<b>Mobile Device Access </b><br>
-We may request access or permission to certain features from your mobile device, including your camera phone. If you wish to change the access or permissions, you may do so in your device settings. 
-<br><br>
-<b>Third-Party Advertisers</b>
-<br>
-We may use third-party advertising companies to serve ads when you open the application. These companies may provide advertisements about goods and services of interest to you. 
-<br><br>
-<b>How we respond to governmental requests for data</b><br>
-They can request for what we DO NOT have.
-<br><br>
-<b>Contact Us</b><br>
-For any questions, concerns, or clarifications you may need about this privacy policy, contact us directly at:
-<a href="mailto:Headmobtracker@gmail.com">Headmobtracker@gmail.com</a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Responsive Topnav Example</h2>
+  <p>Resize the browser window to see how it works.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
