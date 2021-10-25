@@ -59,7 +59,7 @@ header {
 </style>
  <h2>Headmob Tracker</h2>
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
+  <a href="/" class="active">Home</a>
   <a href="/scripts">Scripts</a>
   <a href="/tutorial">Tutorial</a>
   <a href="#about">About</a>
