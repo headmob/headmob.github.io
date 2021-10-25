@@ -1,7 +1,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-@import "{{ site.theme }}";
+@import "{{ headmob.github.io }}";
 
 header {
   display: none;
@@ -70,7 +70,30 @@ header {
 
 <div style="padding-left:16px">
   <h2>Headmob Tracker</h2>
-  <p>Enjoy your flight or driving simulation games without expensive headset and extra equipments</p>
+  - Press the Windows key :
+ - Type ‘Firewall' , Select ‘Firewall & network protection’ :
+ 
+- Scroll down and select ‘Advanced settings’:
+ - From left select ‘Inbound Rules’ :
+ 
+- In right panel, choose ‘New Rule’ :
+ - Choose ‘Program’ and click Next:
+ 
+- Choose ‘This program path’ and click Browse :
+ - Choose ‘opentrack.exe’ from folder that you installed probably “c:\program files(x86)\opentrack\opentrack.exe”
+ ------------------------------------
+
+- Right click on your network symbol at the bottom right of Windows, choose ‘Open Network & Internet Setting’ :
+ - Choose ‘Properties’ :
+ 
+- Choose ‘Private’ instead of ‘Public’ (This will make your PC discoverable to your mobile devices) :
+ 
+- Press windows key and type ‘Command prompt’ :
+ - Type ‘ipconfig’ and Enter :
+ 
+- Find your local Ipv4 address (normally starts with 192.168... but might 10.0... or something else) :
+ - Now restart ‘opentrack’ :
+ 
 </div>
 
 <script>
