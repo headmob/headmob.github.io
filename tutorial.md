@@ -60,7 +60,7 @@ header {
 <h2>Headmob Tracker</h2>
 <div class="topnav" id="myTopnav">
   <a href="/">Home</a>
-  <a href="/script">Scripts</a>
+  <a href="/scripts">Scripts</a>
   <a href="/tutorial" class="active">Tutorial</a>
   <a href="#about">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
