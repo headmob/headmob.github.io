@@ -57,7 +57,7 @@ header {
   }
 }
 </style>
-
+ <h2>Headmob Tracker</h2>
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
   <a href="#script">Scripts</a>
@@ -69,7 +69,7 @@ header {
 </div>
 
 <div style="padding-left:16px">
-  <h2>Headmob Tracker</h2>
+ 
   <p>Enjoy your flight or driving simulation games without expensive headset and extra equipments</p>
 </div>
 
