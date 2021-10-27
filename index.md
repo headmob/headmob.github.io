@@ -44,7 +44,13 @@ header {
 .topnav .icon {
   display: none;
 }
-
+#download{
+  background-color: #0e94ff;
+  color: white;
+  margin:10px;
+  padding:5px;
+  border-radius: 5px;
+  }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -80,7 +86,7 @@ header {
 <div style="padding-left:16px">
   <h1 style="color:#fbb03b">Feel the Way a Real Pilot Feels</h1>
   <p style="color:#fff">Enjoy your flight or driving simulation games without expensive headset and extra equipments</p>
-  <a href="">Download HeadMob <img src="img/play.png" style="width:20px;height:20px"/></a>
+  <a href="play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px"/></a>
 </div>
 
 <script>
