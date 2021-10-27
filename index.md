@@ -50,6 +50,7 @@ header {
   margin:10px;
   padding:5px;
   border-radius: 5px;
+  text-decoration: none;
   }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
