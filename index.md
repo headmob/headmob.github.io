@@ -62,12 +62,11 @@ header {
   }
 }
 </style>
- <h2>Headmob Tracker</h2>
 <div class="topnav" id="myTopnav">
-  <a href="/" class="active">Home</a>
-  <a href="/scripts">Scripts</a>
-  <a href="/tutorial">Tutorial</a>
-  <a href="#about">About</a>
+  <a href="/" class="active">HEADMOB</a>
+  <a href="/scripts">SCRIPT & CONFIG</a>
+  <a href="/tutorial">SETUP GUID</a>
+  <a href="#about">FAQ</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
