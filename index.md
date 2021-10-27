@@ -80,6 +80,7 @@ header {
 <div style="padding-left:16px">
   <h1 style="color:#fbb03b">Feel the Way a Real Pilot Feels</h1>
   <p style="color:#fff">Enjoy your flight or driving simulation games without expensive headset and extra equipments</p>
+  <a href="">Download HeadMob</a>
 </div>
 
 <script>
