@@ -48,7 +48,7 @@ header {
   background-color: #0e94ff;
   color: white;
   margin:10px;
-  padding:5px;
+  padding:10px;
   border-radius: 5px;
   text-decoration: none;
   }
