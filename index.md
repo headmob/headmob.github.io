@@ -78,8 +78,8 @@ header {
 </div>
 
 <div style="padding-left:16px">
- 
-  <p>Enjoy your flight or driving simulation games without expensive headset and extra equipments</p>
+  <h1 style="color:#fbb03b">Feel the Way a Real Pilot Feels</h1>
+  <p style="color:#fff">Enjoy your flight or driving simulation games without expensive headset and extra equipments</p>
 </div>
 
 <script>
