@@ -34,6 +34,7 @@ header {
 .topnav a.active {
   background-color: #0e94ff;
   color: white;
+  margin:5px;
 }
 
 .topnav .icon {
