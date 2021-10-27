@@ -3,7 +3,7 @@
 <style>
 @import "{{ headmob.github.io }}";
 body{
-  background-color: lightblue;
+  background-color: #131426;
   margin:0;
   padding:0;
   }
