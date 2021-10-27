@@ -13,7 +13,7 @@ header {
 .topnav {
   overflow: hidden;
   background-color: #131426;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 .topnav a {
