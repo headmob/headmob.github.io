@@ -4,7 +4,7 @@
 @import "{{ headmob.github.io }}";
 body{
   background-color: lightblue;
-  margin:0
+  margin:0px;
   }
 header {
   display: none;
