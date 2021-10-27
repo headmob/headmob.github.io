@@ -87,7 +87,7 @@ header {
 <div style="padding-left:16px">
   <h1 style="color:#fbb03b">Feel the Way a Real Pilot Feels</h1>
   <p style="color:#fff">Enjoy your flight or driving simulation games without expensive headset and extra equipments</p>
-  <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px; text-align: center;background: transparent;margin-top:5px"/></a>
+  <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px; text-align: center;background: transparent;padding-top:5px"/></a>
 </div>
 
 <script>
