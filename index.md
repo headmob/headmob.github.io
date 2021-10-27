@@ -4,7 +4,7 @@
 @import "{{ headmob.github.io }}";
 body{
   background-color: #131426;
-  margin:0;
+  margin-left:0;
   padding:0;
   }
 header {
@@ -12,7 +12,8 @@ header {
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #131426;
+  border-radius: 25px;
 }
 
 .topnav a {
