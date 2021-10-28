@@ -128,10 +128,6 @@ span.typed-cursor {
 
 <div class="container">
   <h1 class="typing"></h1>
-  <div class="code-with-love">
-    < <span>/</span> > with <i class="fa fa-heart"></i> by
-      <a href="https://instagram.com/theviralboy.ig" target="blank">Sahil Verma</a>
-  </div>
 </div>
   
   <p style="color:#fff">With HeadMob, you have the chance to maximize your immersive gaming experience as it tracks your head movements in all six degrees of freedom and transfer the coordinates with no delay to the game you are playing on your PC.
