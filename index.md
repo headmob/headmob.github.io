@@ -6,6 +6,7 @@ body{
   background-color: #131426;
   margin-left:0;
   padding:0;
+  font-family: Arial;
   }
 header {
   display: none;
@@ -84,7 +85,7 @@ header {
 
 .typing{
   display:block;
-  color:#fff;
+  color:#fbb03b;
 }
 .typing::after {
   content: '';
@@ -140,11 +141,10 @@ span.typed-cursor {
   <div class="container">
   <h1 class="typing"></h1>
   <div class="code-with-love">
-    < <span>/</span> > with <i class="fa fa-heart"></i> by
-      <a href="https://instagram.com/theviralboy.ig" target="blank">Sahil Verma</a>
+  
   </div>
 </div>
-  <h1 style="color:#fbb03b">Feel the Way a Real Pilot Feels</h1>
+  
   <p style="color:#fff">With HeadMob, you have the chance to maximize your immersive gaming experience as it tracks your head movements in all six degrees of freedom and transfer the coordinates with no delay to the game you are playing on your PC.
 <br>
 • Compatible with any simulation games using OpenTrack or TrackIR<br>
@@ -183,7 +183,7 @@ function myFunction() {
 }
   
 let typed = new Typed(".typing", {
-    strings: ["Hi I am Sahil.", "This typing animation is very easy.", "You can easily make animation like this.", "And don't forget to Follow Me.","Thanks!"],
+    strings: ["Enjoy Flight and Driving Simulation Games", "Let's Make You a Part of the Game!", "Turn Your Phone into a Head Tracker", "No Extra CPU Load on Your PC","It's Time to Dive into the Game!"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
