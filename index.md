@@ -108,22 +108,6 @@ span.typed-cursor {
   }
 }
 
-
-.code-with-love {
-  position: absolute;
-  right: 30px;
-  bottom: 50px;
-  border-radius: 5px;
-  background-color: #000;
-  padding: 10px;
-  color: #fff;
-  z-index: 99999999;
-}
-
-.code-with-love i.fa-heart,
-.code-with-love span {
-  color: #ff2828;
-}
 </style>
 <div class="topnav" id="myTopnav">
   <a href="/" class="active">HEADMOB</a>
@@ -137,9 +121,6 @@ span.typed-cursor {
 
   <div class="container">
   <h1 class="typing"></h1>
-  <div class="code-with-love">
-  
-  </div>
 </div>
   
   <p style="color:#fff">With HeadMob, you have the chance to maximize your immersive gaming experience as it tracks your head movements in all six degrees of freedom and transfer the coordinates with no delay to the game you are playing on your PC.
