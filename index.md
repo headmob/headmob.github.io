@@ -171,6 +171,8 @@ Short list of games compatible with HeadMob<br>
 And any game that supports FreeTrack or TrackIR protocol</p>
   <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px;text-align:center;background: transparent;"/></a>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" />
 
 <script>
 function myFunction() {
