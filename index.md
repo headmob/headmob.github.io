@@ -137,7 +137,6 @@ span.typed-cursor {
   </a>
 </div>
 
-<div style="padding-left:16px">
   <div class="container">
   <h1 class="typing"></h1>
   <div class="code-with-love">
