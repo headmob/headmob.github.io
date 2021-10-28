@@ -73,6 +73,58 @@ header {
     text-align: left;
   }
 }
+  
+  .container {
+  position:relative;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.typing{
+  display:block;
+  color:#fff;
+}
+.typing::after {
+  content: '';
+  height: 100%;
+  padding: 2px;
+  margin-left: 10px;
+  background-color: #05ccc2;
+  animation: typing 1.2s ease infinite;
+}
+span.typed-cursor {
+  display:none;
+}
+
+
+@keyframes typing {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.code-with-love {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  border-radius: 5px;
+  background-color: #000;
+  padding: 10px;
+  color: #fff;
+  z-index: 99999999;
+}
+
+.code-with-love i.fa-heart,
+.code-with-love span {
+  color: #ff2828;
+}
 </style>
 <div class="topnav" id="myTopnav">
   <a href="/" class="active">HEADMOB</a>
@@ -85,6 +137,13 @@ header {
 </div>
 
 <div style="padding-left:16px">
+  <div class="container">
+  <h1 class="typing"></h1>
+  <div class="code-with-love">
+    < <span>/</span> > with <i class="fa fa-heart"></i> by
+      <a href="https://instagram.com/theviralboy.ig" target="blank">Sahil Verma</a>
+  </div>
+</div>
   <h1 style="color:#fbb03b">Feel the Way a Real Pilot Feels</h1>
   <p style="color:#fff">With HeadMob, you have the chance to maximize your immersive gaming experience as it tracks your head movements in all six degrees of freedom and transfer the coordinates with no delay to the game you are playing on your PC.
 <br>
@@ -122,6 +181,13 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+  
+let typed = new Typed(".typing", {
+    strings: ["Hi I am Sahil.", "This typing animation is very easy.", "You can easily make animation like this.", "And don't forget to Follow Me.","Thanks!"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });  
 </script>
 
 
