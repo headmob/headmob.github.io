@@ -175,7 +175,7 @@ function myFunction() {
 
 <script>
 let typed = new Typed(".typing", {
-    strings: ["Enjoy Flight and Driving Simulation Games", "Let's Make You a Part of the Game!", "Turn Your Phone into a Head Tracker", "No Extra CPU Load on Your PC","It's Time to Dive into the Game!"],
+    strings: ["Enjoy Flight and Driving Simulation Games", "Lets Make You a Part of the Game!", "Turn Your Phone into a Head Tracker", "No Extra CPU Load on Your PC","Its Time to Dive into the Game!"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
