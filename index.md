@@ -84,7 +84,7 @@ header {
 
 .typing{
   display:block;
-  color:#fff;
+  color:#fbb03b;
 }
 .typing::after {
   content: '';
