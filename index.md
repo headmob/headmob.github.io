@@ -120,8 +120,8 @@ span.typed-cursor {
   </a>
 </div>
 
-<script src="js/jquary.js" />
-<script src="js/type.js" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" />
 <div class="container">
   <h1 class="typing"></h1>
 </div>
