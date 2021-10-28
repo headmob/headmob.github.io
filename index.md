@@ -120,6 +120,8 @@ span.typed-cursor {
   </a>
 </div>
 
+<script src="js/jquary.js" />
+<script src="js/type.js" />
 <div class="container">
   <h1 class="typing"></h1>
 </div>
@@ -150,8 +152,6 @@ Short list of games compatible with HeadMob<br>
 And any game that supports FreeTrack or TrackIR protocol</p>
   <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px;text-align:center;background: transparent;"/></a>
 
-<script src="js/jquary.js" />
-<script src="js/type.js" />
 
 <script>
   function myFunction() {
