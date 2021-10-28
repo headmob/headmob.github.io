@@ -21,7 +21,7 @@ header {
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   padding: 5px 16px;
   text-decoration: none;
   font-size: 17px;
