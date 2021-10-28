@@ -77,8 +77,6 @@ header {
   
   .container {
   position:relative;
-  height: 100vh;
-  width: 100vw;
   display: grid;
   place-items: center;
 }
