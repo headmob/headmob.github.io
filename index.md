@@ -73,15 +73,6 @@ header {
     text-align: left;
   }
 }
-  
-  * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  outline: 0;
-  transition: all 0.2s ease;
-}
-
   .container {
   position:relative;
   display: grid;
