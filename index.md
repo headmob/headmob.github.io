@@ -120,8 +120,8 @@ span.typed-cursor {
   </a>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
 <div class="container">
   <h1 class="typing"></h1>
 </div>
@@ -150,6 +150,7 @@ Short list of games compatible with HeadMob<br>
 - Elite: Dangerous<br>
 - Project Cars<br>
 And any game that supports FreeTrack or TrackIR protocol</p>
+
   <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px;text-align:center;background: transparent;"/></a>
 
 
@@ -164,7 +165,7 @@ And any game that supports FreeTrack or TrackIR protocol</p>
 }
   
 let typed = new Typed(".typing", {
-    strings: ["Enjoy Flight and Driving Simulation Games", "Let's Make You a Part of the Game!", "Turn Your Phone into a Head Tracker", "No Extra CPU Load on Your PC","It's Time to Dive into the Game!"],
+    strings: ["Enjoy flight and driving simulation fames", "Let's make you a part of the game!", "Turn your phone into a head tracker", "No Extra CPU Load on Your PC","It's Time to dive into the Game!"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
