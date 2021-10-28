@@ -78,6 +78,8 @@ header {
   .container {
   position:relative;
   display: grid;
+  height: 100vh;
+  width: 100vw;
   place-items: center;
 }
 
