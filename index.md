@@ -75,12 +75,18 @@ header {
   }
 }
   
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  transition: all 0.2s ease;
+}
+
   .container {
   position:relative;
   display: grid;
-  height: 100vh;
-  width: 100vw;
-  place-items: center;
+  place-items: left;
 }
 
 .typing{
