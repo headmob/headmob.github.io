@@ -156,8 +156,11 @@ Short list of games compatible with HeadMob<br>
 And any game that supports FreeTrack or TrackIR protocol</p>
   <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px;text-align:center;background: transparent;"/></a>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" />
+
 <script>
-function myFunction() {
+  function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -165,11 +168,7 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" />
-
-<script>
+  
 let typed = new Typed(".typing", {
     strings: ["Enjoy Flight and Driving Simulation Games", "Lets Make You a Part of the Game!", "Turn Your Phone into a Head Tracker", "No Extra CPU Load on Your PC","Its Time to Dive into the Game!"],
     typeSpeed: 100,
