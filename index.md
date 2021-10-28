@@ -86,7 +86,30 @@ header {
 
 <div style="padding-left:16px">
   <h1 style="color:#fbb03b">Feel the Way a Real Pilot Feels</h1>
-  <p style="color:#fff">Enjoy your flight or driving simulation games without expensive headset and extra equipments</p>
+  <p style="color:#fff">With HeadMob, you have the chance to maximize your immersive gaming experience as it tracks your head movements in all six degrees of freedom and transfer the coordinates with no delay to the game you are playing on your PC.
+
+• Compatible with any simulation games using OpenTrack or TrackIR
+• Adjust the sensitivity and offset of each axis
+• No expensive headset, glasses, or extra hardware is required
+• Connects over WiFi, no need for annoying cables
+• All tracking computations are performed on phone
+• Simple one-time setup
+
+Short list of games compatible with HeadMob
+- Microsoft Flight Simulator
+- Star Citizens
+- IL-2 Great Battles
+- War Thunder
+- Star Wars: Squadrons
+- Arma 2/3
+- Rise of Flight
+- IL-2 Cliffs of Dover
+- Flight Simulator X
+- Assetto Corsa
+- Euro Truck
+- Elite: Dangerous
+- Project Cars
+And any game that supports FreeTrack or TrackIR protocol</p>
   <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px;text-align:center;background: transparent;"/></a>
 </div>
 
