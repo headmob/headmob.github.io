@@ -1,24 +1,31 @@
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 @import "{{ headmob.github.io }}";
-
+body{
+  background-color: #131426;
+  margin-left:0;
+  padding:0;
+  font-family: Arial;
+  }
 header {
   display: none;
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #1c1d2e;
+  border-radius: 5px;
 }
 
 .topnav a {
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: left;
+  padding: 5px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin:10px;
+
 }
 
 .topnav a:hover {
@@ -27,14 +34,24 @@ header {
 }
 
 .topnav a.active {
-  background-color: #edbb2f;
+  background-color: #0e94ff;
   color: white;
+  margin:10px;
+  padding:5px;
+  border-radius: 5px;
 }
 
 .topnav .icon {
   display: none;
 }
-
+#download{
+  background-color: #0e94ff;
+  color: white;
+  margin:10px;
+  padding:10px;
+  border-radius: 5px;
+  text-decoration: none;
+  }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -56,40 +73,89 @@ header {
     text-align: left;
   }
 }
+ 
+  
+.container {
+  position:relative;
+
+  display: grid;
+  place-items: left;
+}
+
+.typing{
+  display:block;
+  color:#fbb03b;
+}
+.typing::after {
+  content: '';
+  height: 100%;
+  padding: 2px;
+  margin-left: 10px;
+  background-color: #05ccc2;
+  animation: typing 1.2s ease infinite;
+}
+span.typed-cursor {
+  display:none;
+}
+
+
+@keyframes typing {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 </style>
- <h2>Headmob Tracker</h2>
 <div class="topnav" id="myTopnav">
-  <a href="/">Home</a>
-  <a href="/scripts" class="active">Scripts</a>
-  <a href="/tutorial">Tutorial</a>
-  <a href="#about">About</a>
+  <a href="/" class="active">HEADMOB</a>
+  <a href="/scripts">SCRIPT & CONFIG</a>
+  <a href="/tutorial">SETUP GUID</a>
+  <a href="/about">FAQ</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
 
-<div style="padding-left:16px">
-  <h3>Moving mouse with Android</h3>
-  <p>
-  def update():
-    <br>
-    #Apply deadband filter to avoid drift    <br>
-    #And continousRotation filter to yaw axis to avoid jumps when passing tracker center    <br>
-    x = filters.deadband(filters.delta(math.degrees(filters.continousRotation(android[0].yaw))), deadband)    <br>
-    y = filters.deadband(filters.delta(math.degrees(android[0].pitch)), deadband)    <br>
-    <br>
-    mouse.deltaX = x * multiply    <br>
-    mouse.deltaY = y * multiply    <br>
-    <br>
-if starting:    <br>
-    deadband = 0.01    <br>
-    multiply = 5    <br>
-    android[0].update += update    <br>
-  </p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+<div class="container">
+  <h1 class="typing"></h1>
 </div>
+  
+  <p style="color:#fff">With HeadMob, you have the chance to maximize your immersive gaming experience as it tracks your head movements in all six degrees of freedom and transfer the coordinates with no delay to the game you are playing on your PC.
+<br>
+• Compatible with any simulation games using OpenTrack or TrackIR<br>
+• Adjust the sensitivity and offset of each axis<br>
+• No expensive headset, glasses, or extra hardware is required<br>
+• Connects over WiFi, no need for annoying cables<br>
+• All tracking computations are performed on phone<br>
+• Simple one-time setup<br>
+<br>
+Short list of games compatible with HeadMob<br>
+- Microsoft Flight Simulator<br>
+- Star Citizens<br>
+- IL-2 Great Battles<br>
+- War Thunder<br>
+- Star Wars: Squadrons<br>
+- Arma 2/3<br>
+- Rise of Flight<br>
+- IL-2 Cliffs of Dover<br>
+- Flight Simulator X<br>
+- Assetto Corsa<br>
+- Euro Truck<br>
+- Elite: Dangerous<br>
+- Project Cars<br>
+And any game that supports FreeTrack or TrackIR protocol</p>
+
+  <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px;text-align:center;background: transparent;"/></a>
+
 
 <script>
-function myFunction() {
+  function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -97,6 +163,13 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+  
+let typed = new Typed(".typing", {
+    strings: ["Enjoy flight and driving simulation fames", "Let's make you a part of the game!", "Turn your phone into a head tracker", "No Extra CPU Load on Your PC","It's Time to dive into the Game!"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });  
 </script>
 
 
