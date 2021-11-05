@@ -125,35 +125,20 @@ span.typed-cursor {
 <div class="container">
   <h1 class="typing"></h1>
 </div>
-  
-  <p style="color:#fff">With HeadMob, you have the chance to maximize your immersive gaming experience as it tracks your head movements in all six degrees of freedom and transfer the coordinates with no delay to the game you are playing on your PC.
+  <h4>Control mouse Android</h4>
+  <p style="color:#fff">
+  def update():
+  <br>
+    x = filters.deadband(filters.delta(math.degrees(android[0].googleYaw)), deadband)<br>
+    y = filters.deadband(filters.delta(math.degrees(android[0].googlePitch)), deadband) * -1<br>
 <br>
-• Compatible with any simulation games using OpenTrack or TrackIR<br>
-• Adjust the sensitivity and offset of each axis<br>
-• No expensive headset, glasses, or extra hardware is required<br>
-• Connects over WiFi, no need for annoying cables<br>
-• All tracking computations are performed on phone<br>
-• Simple one-time setup<br>
+    mouse.deltaX = x * 3<br>
+    mouse.deltaY = y * 2.1<br>
 <br>
-Short list of games compatible with HeadMob<br>
-- Microsoft Flight Simulator<br>
-- Star Citizens<br>
-- IL-2 Great Battles<br>
-- War Thunder<br>
-- Star Wars: Squadrons<br>
-- Arma 2/3<br>
-- Rise of Flight<br>
-- IL-2 Cliffs of Dover<br>
-- Flight Simulator X<br>
-- Assetto Corsa<br>
-- Euro Truck<br>
-- Elite: Dangerous<br>
-- Project Cars<br>
-And any game that supports FreeTrack or TrackIR protocol</p>
-
-  <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px;text-align:center;background: transparent;"/></a>
-
-
+if starting:<br>
+    deadband = 0.09<br>
+    android[0].update += update<br>
+</p>
 <script>
   function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -165,7 +150,7 @@ And any game that supports FreeTrack or TrackIR protocol</p>
 }
   
 let typed = new Typed(".typing", {
-    strings: ["Enjoy flight and driving simulation fames", "Let's make you a part of the game!", "Turn your phone into a head tracker", "No Extra CPU Load on Your PC","It's Time to dive into the Game!"],
+    strings: ["Sample Script", "Moving mouse by Androird", "Control your pc with face tracking", "Sampel codes"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
