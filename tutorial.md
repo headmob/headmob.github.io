@@ -123,7 +123,8 @@ This is the simplest and quickest way to allow UDP inbound on Port 4242<br>
   </p>
   <p style="color:#fbfbfb;background-color: #1c1d2e;border-radius: 5px;">
 netsh advfirewall firewall add rule name="Open UDP Port 4242" dir=in action=allow
-protocol=UDP localport=4242<br>
+    protocol=UDP localport=4242</p>
+  <p>
 This is the more complicated method<br>
 1. Press the Windows key → Type “Firewall” , Select “Firewall & network protection”<br>
 2. Scroll down and select “Advanced settings”<br>
