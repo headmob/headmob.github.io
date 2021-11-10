@@ -4,8 +4,9 @@
 body{
   background-color: #131426;
   margin-left:0;
-  padding:0;
+  padding:10%;
   font-family: Arial;
+  align:center;
   }
 header {
   display: none;
