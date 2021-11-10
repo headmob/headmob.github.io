@@ -102,7 +102,7 @@ header {
 → Download FreePIE here: Github Link<br>
 Install and run the free and open-source OpenTrack or FreePIE application on your computer, then follow these steps:
  </p>
-  <h2>OpenTrack</h2>
+  <h4>OpenTrack</h4>
   <p>
 1. Select “UDP over network” as the input. Click the tool icon to the right of this and note the port number (default: 4242) – you will
 need this later.<br>
