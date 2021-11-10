@@ -124,7 +124,7 @@ span.typed-cursor {
     <i class="fa fa-bars"></i>
   </a>
 </div>
-
+<div style="90%">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
 <div class="container">
@@ -176,5 +176,5 @@ let typed = new Typed(".typing", {
     loop: true,
   });  
 </script>
-
+</div>
 
