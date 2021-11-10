@@ -10,7 +10,7 @@ body{
   padding:5%;
   font-family: Arial;
   align:center;
-  width:80%
+  width:80%;
   }
   a{
   color:#0e94ff;
