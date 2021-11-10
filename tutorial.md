@@ -108,6 +108,8 @@ Install and run the free and open-source OpenTrack or FreePIE application on you
 need this later.<br>
 2. As Output, choose "Freetrack 2.0 Enhanced" and "Both" in its settings<br>
 3. Your PC setup is almost done!<br>
+  </p>
+  <p style="color:#fbfbfb;">
 This guide is intended for use to get up and running fairly quickly. It is not designed for explaining the intricacies of all the options or
 settings that are available. For a complete guide check this link out: Click here<br>
     </p>
@@ -118,6 +120,8 @@ settings that are available. For a complete guide check this link out: Click her
 This is the simplest and quickest way to allow UDP inbound on Port 4242<br>
 1. Press the Windows key → Type “cmd” and select "Command Prompt"<br>
 2. Copy and run this command from Command Line as an Administrator to open the port<br>
+  </p>
+  <p style="color:#fbfbfb;background-color: #1c1d2e;border-radius: 5px;">
 netsh advfirewall firewall add rule name="Open UDP Port 4242" dir=in action=allow
 protocol=UDP localport=4242<br>
 This is the more complicated method<br>
