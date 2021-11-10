@@ -73,7 +73,7 @@ header {
   p{
   color:#fff;
   }
-  h1,h2{
+  h1,h2,h3,h4{
   color:#fff;
   }
 </style>
@@ -86,7 +86,7 @@ header {
     <i class="fa fa-bars"></i>
   </a>
 </div>
-<h2>Guide Index</h2>
+<h3>Guide Index</h3>
 <p>
  <a href="#freepie">• Download and install OpenTrack or FreePIE</a><br>
  <a href="#firewall">• How to change the settings for Windows Firewall</a><br>
@@ -98,32 +98,35 @@ header {
 <div id="google">
   <h2>Download and Install OpenTrack or FreePIE</h2>
 <p>
-→ Download OpenTrack here: Github Link
-→ Download FreePIE here: Github Link
+→ Download OpenTrack here: Github Link<br>
+→ Download FreePIE here: Github Link<br>
 Install and run the free and open-source OpenTrack or FreePIE application on your computer, then follow these steps:
- <p>
+ </p>
   <h2>OpenTrack</h2>
   <p>
 1. Select “UDP over network” as the input. Click the tool icon to the right of this and note the port number (default: 4242) – you will
-need this later.
-2. As Output, choose "Freetrack 2.0 Enhanced" and "Both" in its settings
-3. Your PC setup is almost done!
+need this later.<br>
+2. As Output, choose "Freetrack 2.0 Enhanced" and "Both" in its settings<br>
+3. Your PC setup is almost done!<br>
 This guide is intended for use to get up and running fairly quickly. It is not designed for explaining the intricacies of all the options or
-settings that are available. For a complete guide check this link out: Click here
+settings that are available. For a complete guide check this link out: Click here<br>
     </p>
 </div>
-How to Change the Settings for Windows Firewall
-This is the simplest and quickest way to allow UDP inbound on Port 4242
-1. Press the Windows key → Type “cmd” and select "Command Prompt"
-2. Copy and run this command from Command Line as an Administrator to open the port
+<div id="firwall">
+<h3>How to Change the Settings for Windows Firewall</h3>
+  <p>
+This is the simplest and quickest way to allow UDP inbound on Port 4242<br>
+1. Press the Windows key → Type “cmd” and select "Command Prompt"<br>
+2. Copy and run this command from Command Line as an Administrator to open the port<br>
 netsh advfirewall firewall add rule name="Open UDP Port 4242" dir=in action=allow
-protocol=UDP localport=4242
-This is the more complicated method
-1. Press the Windows key → Type “Firewall” , Select “Firewall & network protection”
-2. Scroll down and select “Advanced settings”
-3. Select “Inbound Rules”
-4. In right panel, choose “New Rule” → “Program” and click the “Next” button
-5. Choose “This program path” and click the “Browse” button
-6. Choose “OpenTrack.exe” from its installation folder which is probably “c:\program files(x86)\opentrack...”
-
+protocol=UDP localport=4242<br>
+This is the more complicated method<br>
+1. Press the Windows key → Type “Firewall” , Select “Firewall & network protection”<br>
+2. Scroll down and select “Advanced settings”<br>
+3. Select “Inbound Rules”<br>
+4. In right panel, choose “New Rule” → “Program” and click the “Next” button<br>
+5. Choose “This program path” and click the “Browse” button<br>
+6. Choose “OpenTrack.exe” from its installation folder which is probably “c:\program files(x86)\opentrack...”<br>
+    </p>
+</div>
 
