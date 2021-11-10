@@ -103,6 +103,7 @@ body{
  <a href="#ipv4">• Find your local IPV4 address</a><br>
  <a href="#shortcut">• Set up your preferred shortcuts</a><br>
  </p>
+ <div style="width:90%">
 <div id="google">
   <h2>Download and Install OpenTrack or FreePIE</h2>
 <p>
@@ -142,4 +143,4 @@ This is the more complicated method<br><br>
 6. Choose “OpenTrack.exe” from its installation folder which is probably “c:\program files(x86)\opentrack...”<br>
     </p>
 </div>
-
+</div>
