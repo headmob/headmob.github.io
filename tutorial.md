@@ -86,6 +86,10 @@ body{
   }
   
   .footer {
+
+  position: absolute;
+   left: 0;
+   bottom: 0;
    width: 100%;
    background-color: #1c1d2e;
    color: white;
