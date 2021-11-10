@@ -94,7 +94,9 @@ body{
     <i class="fa fa-bars"></i>
   </a>
 </div>
-<h3>Guide Index</h3>
+
+ <div style="padding:5%">
+  <h3>Guide Index</h3>
 <p>
  <a href="#freepie">• Download and install OpenTrack or FreePIE</a><br>
  <a href="#firewall">• How to change the settings for Windows Firewall</a><br>
@@ -103,7 +105,6 @@ body{
  <a href="#ipv4">• Find your local IPV4 address</a><br>
  <a href="#shortcut">• Set up your preferred shortcuts</a><br>
  </p>
- <div style="padding:5%">
 <div id="google">
   <h2>Download and Install OpenTrack or FreePIE</h2>
 <p>
