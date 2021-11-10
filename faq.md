@@ -139,7 +139,14 @@ span.typed-cursor {
   </a>
 </div>
 <div style="padding:5%;line-height: 1.6;text-align: justify;text-justify: inter-word;">
-  <p></p>
+  <p>
+  <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </p>
 
 <script>
   function myFunction() {
