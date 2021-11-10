@@ -44,14 +44,7 @@ header {
 .topnav .icon {
   display: none;
 }
-#download{
-  background-color: #0e94ff;
-  color: white;
-  margin:10px;
-  padding:10px;
-  border-radius: 5px;
-  text-decoration: none;
-  }
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -73,6 +66,12 @@ header {
     text-align: left;
   }
 }
+  p{
+  color:#fff;
+  }
+  h1,h2{
+  color:#fff;
+  }
 </style>
 <div class="topnav" id="myTopnav">
   <a href="/">HEADMOB</a>
@@ -83,34 +82,38 @@ header {
     <i class="fa fa-bars"></i>
   </a>
 </div>
-
-<div style="padding-left:16px">
-  <h1 style="color:#fbb03b">Feel the Way a Real Pilot Feels</h1>
-  <p style="color:#fff">On your PC:
-1. Download & Install OpenTrack (https://git.io/JUs2U) on your PC and make sure you give it network access when asked by the Windows Firewall 
-2. In OpenTrack, select "UDP over Network" as input source and "FreeTrack" as output 
-3. Your PC setup is done
-
-On your phone:
-1. Tap the IP icon in HeadMob and enter the local IP address of your PC and a proper port number regarding OpenTrack or FreePIE
-2. Start the app and you are ready to dive into the game!
-
-+ Detailed instructions is available in the app
-________
-NOTE: Works on devices that support Google AR services
-If you have any problem during the usage of HeadMob, don't hesitate to contact us via headmobtracker@gmail.com</p>
-  <a href="http://play.google.com" id="download">Download HeadMob <img src="img/play.png" style="width:20px;height:20px;text-align:center;background: transparent;"/></a>
-</div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+<h2>Guide Index</h2>
+<p>
+• Download and install OpenTrack or FreePIE
+• How to change the settings for Windows Firewall
+• Phone configuration steps
+• USB mode
+• Find your local IPV4 address
+• Set up your preferred shortcuts
+ </p>
+Download and Install OpenTrack or FreePIE
+→ Download OpenTrack here: Github Link
+→ Download FreePIE here: Github Link
+Install and run the free and open-source OpenTrack or FreePIE application on your computer, then follow these steps:
+OpenTrack
+1. Select “UDP over network” as the input. Click the tool icon to the right of this and note the port number (default: 4242) – you will
+need this later.
+2. As Output, choose "Freetrack 2.0 Enhanced" and "Both" in its settings
+3. Your PC setup is almost done!
+This guide is intended for use to get up and running fairly quickly. It is not designed for explaining the intricacies of all the options or
+settings that are available. For a complete guide check this link out: Click here
+How to Change the Settings for Windows Firewall
+This is the simplest and quickest way to allow UDP inbound on Port 4242
+1. Press the Windows key → Type “cmd” and select "Command Prompt"
+2. Copy and run this command from Command Line as an Administrator to open the port
+netsh advfirewall firewall add rule name="Open UDP Port 4242" dir=in action=allow
+protocol=UDP localport=4242
+This is the more complicated method
+1. Press the Windows key → Type “Firewall” , Select “Firewall & network protection”
+2. Scroll down and select “Advanced settings”
+3. Select “Inbound Rules”
+4. In right panel, choose “New Rule” → “Program” and click the “Next” button
+5. Choose “This program path” and click the “Browse” button
+6. Choose “OpenTrack.exe” from its installation folder which is probably “c:\program files(x86)\opentrack...”
 
 
