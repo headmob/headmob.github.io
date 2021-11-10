@@ -106,7 +106,7 @@ body{
   </a>
 </div>
 
- <div style="padding-left:15%;padding-right:15%;padding-bottom:10%;text-align: justify;text-justify: inter-word;">
+ <div style="padding-left:15%;padding-right:15%;padding-bottom:10%;text-align: justify;text-justify: inter-word;line-height: 1.6;">
   <h3>Guide Index</h3>
 <p>
  <a href="#freepie">• Download and install OpenTrack or FreePIE</a><br>
