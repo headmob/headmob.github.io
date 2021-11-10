@@ -22,7 +22,7 @@ body{
 
 .topnav {
   margin:50px;
-  width:80%;
+  width:100%;
   overflow: hidden;
   background-color: #1c1d2e;
   border-radius: 5px;
