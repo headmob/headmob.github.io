@@ -4,10 +4,8 @@
 body{
   background-color: #131426;
   margin-left:0;
-  padding:5%;
   font-family: Arial;
   align:center;
-  width:80%
   }
   a{
   color:#0e94ff
@@ -16,6 +14,7 @@ header {
   display: none;
 }
 .topnav {
+  margin:5%;
   overflow: hidden;
   background-color: #1c1d2e;
   border-radius: 5px;
@@ -197,11 +196,11 @@ let typed = new Typed(".typing", {
 
 <div class="footer">
   <p style="float:left;padding:5px;text-align:left;margin-left:30px;">
-Support<br>
+<b>Support</b><br>
 If you have any problem during the usage of HeadMob, don't hesitate<br>
 to contact us via headmobtracker@gmail.com
   </p>
-  <p style="float:right;padding:5px;text-align:left;margin-right:30px;">
-Made with honey & fire by Pyrobees<br>
+  <p style="float:right;padding:5px;text-align:left;margin-right:30px;color:#fbfbfb">
+    Made with honey & fire by <b>Pyrobees</b><br>
 © 2021 - All rights reserved</p>
 </div>
