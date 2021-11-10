@@ -130,7 +130,7 @@ span.typed-cursor {
   <a href="/">HEADMOB</a>
   <a href="/scripts" class="active">SCRIPT & CONFIG</a>
   <a href="/tutorial">SETUP GUID</a>
-  <a href="/about">FAQ</a>
+  <a href="/faq">FAQ</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
