@@ -170,7 +170,8 @@ Short list of games compatible with HeadMob<br>
 - Elite: Dangerous<br>
 - Project Cars<br>
 And any game that supports FreeTrack or TrackIR protocol</p>
-
+<br>
+  <br>
   <a href="http://play.google.com" id="download">Download HeadMob Now</a>
 
 
