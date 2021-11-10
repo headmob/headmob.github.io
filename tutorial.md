@@ -4,7 +4,17 @@
   html {
   scroll-behavior: smooth;
 }
-
+body{
+  background-color: #131426;
+  margin-left:0;
+  padding:5%;
+  font-family: Arial;
+  align:center;
+  width:80%
+  }
+  a{
+  color:#0e94ff
+  }
 @import "{{ headmob.github.io }}";
 body{
   background-color: #131426;
