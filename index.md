@@ -57,7 +57,7 @@ header {
   border-radius: 5px;
   text-decoration: none;
   }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -68,7 +68,7 @@ header {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -119,7 +119,16 @@ span.typed-cursor {
     opacity: 0;
   }
 }
-
+.footer {
+   overflow: hidden;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #1c1d2e;
+   color: white;
+  padding:10px;
+}
+  
 </style>
 <div class="topnav" id="myTopnav">
   <a href="/" class="active">HEADMOB</a>
@@ -184,13 +193,14 @@ let typed = new Typed(".typing", {
 </script>
 </div>
 
+
 <div class="footer">
-  <p style="float:left;padding:5px;">
-  Support<br>
-If you have any problem during the usage of HeadMob, don't hesitate
+  <p style="float:left;padding:5px;text-align:left;margin-left:30px;">
+Support<br>
+If you have any problem during the usage of HeadMob, don't hesitate<br>
 to contact us via headmobtracker@gmail.com
   </p>
-  <p style="float:right;padding:5px;">
-Made with honey & fire by Pyrobees
+  <p style="float:right;padding:5px;text-align:left;margin-right:30px;">
+Made with honey & fire by Pyrobees<br>
 © 2021 - All rights reserved</p>
 </div>
