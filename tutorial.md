@@ -84,17 +84,21 @@ header {
 </div>
 <h2>Guide Index</h2>
 <p>
-• Download and install OpenTrack or FreePIE
+  <a href="#freepie">• Download and install OpenTrack or FreePIE</a>
+
 • How to change the settings for Windows Firewall
 • Phone configuration steps
 • USB mode
 • Find your local IPV4 address
 • Set up your preferred shortcuts
  </p>
-Download and Install OpenTrack or FreePIE
+<div id="google">
+  <h2>Download and Install OpenTrack or FreePIE</h2>
+<p>
 → Download OpenTrack here: Github Link
 → Download FreePIE here: Github Link
 Install and run the free and open-source OpenTrack or FreePIE application on your computer, then follow these steps:
+ <p>
 OpenTrack
 1. Select “UDP over network” as the input. Click the tool icon to the right of this and note the port number (default: 4242) – you will
 need this later.
@@ -102,6 +106,7 @@ need this later.
 3. Your PC setup is almost done!
 This guide is intended for use to get up and running fairly quickly. It is not designed for explaining the intricacies of all the options or
 settings that are available. For a complete guide check this link out: Click here
+</div>
 How to Change the Settings for Windows Firewall
 This is the simplest and quickest way to allow UDP inbound on Port 4242
 1. Press the Windows key → Type “cmd” and select "Command Prompt"
