@@ -90,7 +90,7 @@ body{
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
+   background-color: #1c1d2e;
    color: white;
    text-align: center;
 }
@@ -159,5 +159,12 @@ This is the more complicated method<br><br>
 </div>
 
 <div class="footer">
-  <p>Footer</p>
+  <p style="float:left">
+  upport<br>
+If you have any problem during the usage of HeadMob, don't hesitate<br>
+to contact us via headmobtracker@gmail.com
+  </p>
+  <p style="float:right">
+Made with honey & fire by Pyrobees<br>
+© 2021 - All rights reserved</p>
 </div>
