@@ -21,7 +21,7 @@ body{
   }
 
 .topnav {
-  margin:10%;
+  margin:5%;
   overflow: hidden;
   background-color: #1c1d2e;
   border-radius: 5px;
