@@ -185,12 +185,12 @@ let typed = new Typed(".typing", {
 </div>
 
 <div class="footer">
-  <p style="float:left">
-  upport<br>
-If you have any problem during the usage of HeadMob, don't hesitate<br>
+  <p style="float:left;padding:5px;">
+  Support<br>
+If you have any problem during the usage of HeadMob, don't hesitate
 to contact us via headmobtracker@gmail.com
   </p>
-  <p style="float:right">
-Made with honey & fire by Pyrobees<br>
+  <p style="float:right;padding:5px;">
+Made with honey & fire by Pyrobees
 © 2021 - All rights reserved</p>
 </div>
