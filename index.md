@@ -63,6 +63,9 @@ header {
     float: right;
     display: block;
   }
+  .typing{
+   font-size: small;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -76,6 +79,9 @@ header {
     float: none;
     display: block;
     text-align: left;
+  }
+   .typing{
+   font-size: medium;
   }
 }
  
