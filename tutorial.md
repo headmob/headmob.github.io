@@ -13,7 +13,7 @@ body{
   background-color: #131426;
   margin-left:0;
   padding:5%;
-  font-family: Tahoma;
+  font-family: Arial;
   align:center;
   width:80%;
   }
