@@ -14,7 +14,6 @@ body{
   margin-left:0;
   font-family: Arial;
   align:center;
-  width:80%;
   }
   a{
   color:#0e94ff;
@@ -23,6 +22,7 @@ body{
 
 .topnav {
   margin:50px;
+  width:80%;
   overflow: hidden;
   background-color: #1c1d2e;
   border-radius: 5px;
@@ -85,8 +85,8 @@ body{
   color:#fff;
   }
   
-  .footer {
-  overflow: hidden;
+.footer {
+   overflow: hidden;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -106,7 +106,7 @@ body{
   </a>
 </div>
 
- <div style="padding:15%;text-align: justify;text-justify: inter-word;">
+ <div style="padding-left:15%;padding-right:15%;padding-bottom:15%;text-align: justify;text-justify: inter-word;">
   <h3>Guide Index</h3>
 <p>
  <a href="#freepie">• Download and install OpenTrack or FreePIE</a><br>
