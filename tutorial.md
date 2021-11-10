@@ -110,7 +110,7 @@ header {
   <h2>Download and Install OpenTrack or FreePIE</h2>
 <p>
   → Download OpenTrack here: <a href="https://github.com/opentrack/opentrack/releases">Github Link</a><br>
-→ Download FreePIE here: <a href="https://andersmalmgren.github.io/FreePIE/">Github Link<a><br><br>
+→ Download FreePIE here: <a href="https://andersmalmgren.github.io/FreePIE/">Github Link</a><br><br>
 Install and run the free and open-source OpenTrack or FreePIE application on your computer, then follow these steps:
  </p>
   <h4>OpenTrack</h4>
