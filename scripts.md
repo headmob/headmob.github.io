@@ -116,7 +116,15 @@ span.typed-cursor {
     opacity: 0;
   }
 }
-
+.footer {
+   overflow: hidden;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #1c1d2e;
+   color: white;
+  padding:10px;
+}
 </style>
 <div class="topnav" id="myTopnav">
   <a href="/">HEADMOB</a>
@@ -165,4 +173,15 @@ let typed = new Typed(".typing", {
   });  
 </script>
 
+
+<div class="footer">
+  <p style="float:left;padding:5px;text-align:left;margin-left:30px;">
+<b>Support</b><br>
+If you have any problem during the usage of HeadMob, don't hesitate<br>
+to contact us via headmobtracker@gmail.com
+  </p>
+  <p style="float:right;padding:5px;text-align:left;margin-right:30px;color:#fcfcfc">
+    Made with honey & fire by <b>Pyrobees</b><br>
+© 2021 - All rights reserved</p>
+</div>
 
