@@ -99,7 +99,7 @@ header {
   <h2>Download and Install OpenTrack or FreePIE</h2>
 <p>
   → Download OpenTrack here: <a href="https://github.com/opentrack/opentrack/releases">Github Link</a><br>
-→ Download FreePIE here: <a href="https://andersmalmgren.github.io/FreePIE/">Github Link<a><br>
+→ Download FreePIE here: <a href="https://andersmalmgren.github.io/FreePIE/">Github Link<a><br><br>
 Install and run the free and open-source OpenTrack or FreePIE application on your computer, then follow these steps:
  </p>
   <h4>OpenTrack</h4>
@@ -121,7 +121,7 @@ This is the simplest and quickest way to allow UDP inbound on Port 4242<br>
 1. Press the Windows key → Type “cmd” and select "Command Prompt"<br>
 2. Copy and run this command from Command Line as an Administrator to open the port<br>
   </p>
-  <p style="color:#fbfbfb;background-color: #1c1d2e;border-radius: 5px;font-style: italic;">
+  <p style="color:#fbfbfb;background-color: #1c1d2e;border-radius: 5px;font-style: italic;width:40%;">
 netsh advfirewall firewall add rule name="Open UDP Port 4242" dir=in action=allow
     protocol=UDP localport=4242</p>
   <p>
