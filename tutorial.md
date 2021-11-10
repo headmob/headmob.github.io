@@ -13,7 +13,8 @@ body{
   width:80%
   }
   a{
-  color:#0e94ff
+  color:#0e94ff;
+  text-decoration: none;
   }
 @import "{{ headmob.github.io }}";
 body{
