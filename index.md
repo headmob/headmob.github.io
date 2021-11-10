@@ -184,3 +184,13 @@ let typed = new Typed(".typing", {
 </script>
 </div>
 
+<div class="footer">
+  <p style="float:left">
+  upport<br>
+If you have any problem during the usage of HeadMob, don't hesitate<br>
+to contact us via headmobtracker@gmail.com
+  </p>
+  <p style="float:right">
+Made with honey & fire by Pyrobees<br>
+© 2021 - All rights reserved</p>
+</div>
