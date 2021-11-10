@@ -92,7 +92,7 @@ body{
    width: 100%;
    background-color: #1c1d2e;
    color: white;
-   text-align: center;
+  padding:10px;
 }
   
 </style>
@@ -142,7 +142,7 @@ This is the simplest and quickest way to allow UDP inbound on Port 4242<br>
 1. Press the Windows key → Type “cmd” and select "Command Prompt"<br>
 2. Copy and run this command from Command Line as an Administrator to open the port<br>
   </p>
-  <p style="color:#fbfbfb;background-color: #1c1d2e;border-radius: 5px;font-style: italic;margin-right:30px">
+  <p style="color:#fbfbfb;background-color: #1c1d2e;padding:10px;border-radius: 5px;font-style: italic;margin-right:30px">
 netsh advfirewall firewall add rule name="Open UDP Port 4242" dir=in action=allow
     protocol=UDP localport=4242</p>
   <p>
