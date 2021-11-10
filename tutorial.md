@@ -160,8 +160,8 @@ This is the more complicated method<br><br>
 
 <div class="footer">
   <p style="float:left;padding:5px">
-  <h4>Support</h4>
-If you have any problem during the usage of HeadMob, don't hesitate
+Support<br>
+If you have any problem during the usage of HeadMob, don't hesitate<br>
 to contact us via headmobtracker@gmail.com
   </p>
   <p style="float:right;padding:5px">
