@@ -98,7 +98,6 @@ header {
 }
 .typing::after {
   content: '';
-  height: 60%;
   padding: 2px;
   margin-left: 10px;
   background-color: #05ccc2;
