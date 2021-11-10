@@ -4,6 +4,11 @@
   html {
   scroll-behavior: smooth;
 }
+ @import "{{ headmob.github.io }}";
+
+header {
+  display: none;
+}
 body{
   background-color: #131426;
   margin-left:0;
@@ -16,15 +21,7 @@ body{
   color:#0e94ff;
   text-decoration: none;
   }
-@import "{{ headmob.github.io }}";
-body{
-  background-color: #131426;
-  margin-left:0;
-  padding:0;
-  }
-header {
-  display: none;
-}
+
 .topnav {
   overflow: hidden;
   background-color: #1c1d2e;
