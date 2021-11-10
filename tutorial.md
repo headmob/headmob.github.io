@@ -84,6 +84,17 @@ body{
   h1,h2,h3,h4{
   color:#fff;
   }
+  
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+  
 </style>
 <div class="topnav" id="myTopnav">
   <a href="/">HEADMOB</a>
@@ -144,4 +155,9 @@ This is the more complicated method<br><br>
 6. Choose “OpenTrack.exe” from its installation folder which is probably “c:\program files(x86)\opentrack...”<br>
     </p>
 </div>
+  
+</div>
+
+<div class="footer">
+  <p>Footer</p>
 </div>
