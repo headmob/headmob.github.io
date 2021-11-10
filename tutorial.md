@@ -21,8 +21,10 @@ body{
   }
 
 .topnav {
-  left:50px;
-  right;50px;
+  left:100px;
+  right;100px;
+  top:100px;
+  bottom:100px
   overflow: hidden;
   background-color: #1c1d2e;
   border-radius: 5px;
