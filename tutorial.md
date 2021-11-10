@@ -21,8 +21,8 @@ body{
   }
 
 .topnav {
-  margin:50px;
-  width:100%;
+  left:50px;
+  right;50px;
   overflow: hidden;
   background-color: #1c1d2e;
   border-radius: 5px;
