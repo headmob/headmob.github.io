@@ -146,6 +146,12 @@ span.typed-cursor {
     <br>
     <br>
     <br>
+  This page is under maintenance
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </p>
 
 <script>
