@@ -156,7 +156,7 @@ Short list of games compatible with HeadMob<br>
 - Project Cars<br>
 And any game that supports FreeTrack or TrackIR protocol</p>
 
-  <a href="http://play.google.com" id="download">Download HeadMob</a>
+  <a href="http://play.google.com" id="download">Download HeadMob Now</a>
 
 
 <script>
