@@ -15,6 +15,7 @@ header {
   display: none;
 }
 .topnav {
+  margin:5%;
   overflow: hidden;
   background-color: #1c1d2e;
   border-radius: 5px;
@@ -133,12 +134,13 @@ span.typed-cursor {
     <i class="fa fa-bars"></i>
   </a>
 </div>
-
+<div style="padding:5%;line-height: 1.6;text-align: justify;text-justify: inter-word;">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
 <div class="container">
   <h1 class="typing"></h1>
 </div>
+
   <h4>Control mouse Android</h4>
   <p style="color:#fff">
   def update():
@@ -170,7 +172,7 @@ let typed = new Typed(".typing", {
     loop: true,
   });  
 </script>
-
+</div>
 
 <div class="footer">
   <p style="float:left;padding:5px;text-align:left;margin-left:30px;">
