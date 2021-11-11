@@ -20,7 +20,7 @@ header {
   background-color: #1c1d2e;
   border-radius: 5px;
 }
-h4{
+h4,p{
    color: #fff;
   }
 .topnav a {
