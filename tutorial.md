@@ -98,7 +98,7 @@ body{
 <div class="topnav" id="myTopnav">
   <a href="/">HEADMOB</a>
   <a href="/scripts">SCRIPT & CONFIG</a>
-  <a href="/tutorial" class="active">SETUP GUID</a>
+  <a href="/tutorial" class="active">SETUP GUIDE</a>
   <a href="/faq">FAQ</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
