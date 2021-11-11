@@ -140,7 +140,7 @@ span.typed-cursor {
   <h1 class="typing"></h1>
 </div>
 
-  <h4>Control mouse Android</h4>
+  <h4>Control mouse with Android</h4>
   <p style="color:#fff">
   def update():
   <br>
