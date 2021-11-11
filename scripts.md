@@ -141,7 +141,7 @@ span.typed-cursor {
 </div>
 
   <h4>Control mouse with Android</h4>
-  <p>Note:increase the sensivity of Yaw, Pith and Roll to the high value in HeadMob app. Then write below code:</p>
+  <p>Note:increase the sensivity of Yaw, Pith and Roll to the high value in HeadMob app. Then write below code in FreePIE:</p>
   <p style="color:#fff">
   def update():
   <br>
